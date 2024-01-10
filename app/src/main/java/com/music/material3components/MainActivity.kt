@@ -29,8 +29,9 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center){
-                        DialogM3()
+                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter){
+//                        ProgressIndicator()
+                        SeacrhBarm()
                     }
 
 
