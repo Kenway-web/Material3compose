@@ -29,9 +29,11 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter){
+                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center){
 //                        ProgressIndicator()
-                        SeacrhBarm()
+//                        SeacrhBarm()
+                      //  ModelBottomSheet()
+                        StandardBottomSheet()
                     }
 
 
