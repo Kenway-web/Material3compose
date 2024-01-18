@@ -37,7 +37,9 @@ class MainActivity : ComponentActivity() {
 //                        ListsM3()
                         //FABWithScaffold()
 //                        TopAppBarWithScaffold()
-                        NavigationBarScaffold()
+//                        NavigationBarScaffold()
+//                        NavigationBottomBarScaffold()
+                        NavigationDrawer()
                     }
 
 
